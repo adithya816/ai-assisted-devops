@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-LOG_FILE = "app/application.log"
+LOG_FILE = "../logs/application.log"
 
 client = OpenAI()
 
